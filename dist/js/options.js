@@ -1,0 +1,1 @@
+import"../assets/modulepreload-polyfill-3cfb730f.js";import{j as t,c as o,R as e}from"../assets/index-a59649ca.js";const s=()=>t.jsx("div",{className:"flex flex-col gap-2"}),r=document.getElementById("options-root"),n=o(r);n.render(t.jsx(e.StrictMode,{children:t.jsx(s,{})}));

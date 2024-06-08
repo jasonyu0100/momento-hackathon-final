@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <link rel="icon" type="image/svg+xml" href="src/assets/vite.svg" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>v3 Manifest Chrome Extension Starter - React / Tailwind / Vite 🚀</title>
+    </head>
+    <body class="flex flex-col bg-white space-y-[3rem] p-[3rem]">
+        <div class="flex flex-row space-x-[3rem]">
+            <h2>popup.html</h2>
+            <div class="p-[3rem] border-[1px] border-dashed border-black">
+                <div id="popup-root" class="bg-black"></div>
+            </div>
+        </div>
+        <div class="flex flex-row space-x-[3rem]">
+            <h2>options.html</h2>
+            <div class="p-[3rem] border-[1px] border-dashed border-black">
+                <div id="options-root" class="bg-black"></div>
+            </div>
+        </div>
+        <script type="module" crossorigin src="/src/scripts/popup/index.tsx"></script>
+        <script type="module" crossorigin src="/src/scripts/options/index.tsx"></script>
+        <script type="module" crossorigin src="/src/scripts/content/index.tsx"></script>
+    </body>
+</html>
